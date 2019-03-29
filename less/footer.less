@@ -1,8 +1,12 @@
 .footer {
-  margin: 0 auto;
+  margin    : 0 auto;
   width     : 1000px;
   border-top: 2px dashed silver;
   background: @sandy-beach;
+
+  @media @phone {
+    width: 100%;
+  }
 
   p {
     text-align: center;
